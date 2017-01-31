@@ -1,12 +1,11 @@
 title: Artists Theme
+description: Thinker // Designer // YouTuber
 email: your-email@domain.com
-description: Artists Theme Portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
 exclude:
