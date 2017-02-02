@@ -1,0 +1,34 @@
+/*** =================================================================***/
+/*                           VARIABLES                                  */
+/*** =================================================================***/
+$documentBackgroundColor: #fff
+$headlineColor: #333
+$textColor: #666
+$linkColor: #21a1e1
+$sectionColor: rgb(255,255,158)
+$accent: #c99065
+$accent-light: #e1c184
+$bgcolor: #e5eaee
+
+@mixin clearfix
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.flex-row
+  display: flex
+  flex-direction: row
+
+.flex-col
+  display: flex
+  flex-direction: column
+
+%small-bold
+  font:
+    size: 14px
+    weight: 700
+  text-transform: uppercase
+
+%skill-color
+  background: $bgcolor
