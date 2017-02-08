@@ -1,5 +1,5 @@
 header#header
-  .flex-row.nav-menu-wrapper
+  .nav-menu-wrapper.flex-row
     .logo {% include icons/logo.html %}
     nav.main-menu
       a(href="#about-me") About Me
@@ -8,6 +8,6 @@ header#header
       a(href="#footer") Contact
 
   h1.site-name
-    span {{ site.title }}
+    span {{ site.data.settings.title }}
 
-  p.kicker {{ site.description }}
+  p.kicker {{ site.data.settings.description }}
